@@ -1,38 +1,138 @@
-.App {
-  text-align: center;
+a{
+  text-decoration: none;
+}
+.btn-nav{
+  border-radius: 200px;
+  border: none;
+  padding: 25px 25px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.heading-nav-btn{
+  background-color: orange;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.nav-link{
+  font-size: 13px;
+  font-weight: 600;
+}
+.nav-link:hover{
+  color: orange !important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.hero-1 h6{
+  color: orange !important;
+  font-family: cursive ;
+}
+
+.hero-1 h1{
+  color: black;
+  font-weight: 1000;
+  font-size: 50px;
+}
+
+.hero-1 p{
+  color: grey;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.hero-1-btn{
   color: white;
+  background-color: orange;
+  border-radius: 10px ;
+  padding: 10px 10px;
+  border: none;
+  font-weight: 600;
 }
 
-.App-link {
-  color: #61dafb;
+.hero-1-btn2{
+  color: white;
+  background-color: rgb(34, 139, 34);
+  border-radius: 10px ;
+  padding: 10px 10px;
+  border: none;
+  font-weight: 600;
+}
+.hero-3-dt h6{
+  color: black ;
+  text-align: end;
+}
+.hero-3-dt p{
+  color: grey;
+  font-size: 12px;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: end;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.hero-3-btn button{
+  border-radius: 50px;
+  border: none;
+  padding: 15px 15px;
+
+}
+.hero-icons a{
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.card{
+  border: none !important;
+  padding: 15px 15px;
+  min-height: 300px !important;
+}
+
+.item-bg{
+ background-color: bisque;
+}
+
+.item-heading h5{
+  color: orange;
+  font-family: cursive;
+}
+
+.item-heading h2{
+  font-weight: 1000 ;
+  font-family: 'Times New Roman', Times, serif;
+}
+.card h6{
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.card p{
+  font-size: 12px;
+  font-family: 'Times New Roman', Times, serif;
+
+}
+
+.cmp-btn{
+  color: white;
+  background-color: rgb(34, 139, 34);
+  border-radius: 10px ;
+  padding: 10px 10px;
+  border: none;
+  font-weight: 600;
+}
+
+.btn-prize{
+  color: orange;
+  border-radius: 10px ;
+  padding: 10px 10px;
+  border: none;
+  font-weight: 600;
+  font-size: 25px;
+}
+
+.badge-prize{
+  color: black;
+  font-size: 15px;
+}
+.cmp-sec1 h5{
+  color: orange;
+  font-family: cursive;
+}
+
+.cmp-sec1 h1{
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 1000;
 }
