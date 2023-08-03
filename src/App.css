@@ -228,3 +228,33 @@ a{
   color: black;
   font-size: 15px;
 }
+
+.mobile-details h5{
+  color: orange;
+  font-family: cursive;
+}
+
+.mobile-details h1{
+  color: black;
+  font-size: 60px;
+  font-weight: 800;
+}
+
+.staff-details h5{
+  color: orange;
+  font-family: cursive;
+}
+
+.staff-details h1{
+  color: black;
+
+  font-weight: 800;
+}
+
+.staff-image img{
+  border-radius: 50px;
+}
+
+.staff-links a{
+  color: black !important;
+}
