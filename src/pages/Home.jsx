@@ -2,6 +2,7 @@ import React from 'react'
 import Hero from '../component/element/Hero'
 import Items from '../component/element/Items'
 import Company from '../component/element/Company'
+import Dishes from '../component/element/Dishes'
 
 const Home = () => {
   return (
@@ -9,6 +10,7 @@ const Home = () => {
     <Hero/>
     <Items/>
     <Company/>
+    <Dishes/>
    </React.Fragment>
   )
 }
