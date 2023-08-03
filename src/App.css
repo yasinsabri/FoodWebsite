@@ -81,7 +81,7 @@ a{
 }
 
 .item-bg{
- background-color: bisque;
+ background-color: rgb(245, 238, 231);
 }
 
 .item-heading h5{
@@ -145,5 +145,86 @@ a{
 .dishes-heading h2{
   color: black;
   
+  font-weight: 800; 
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+  background-color: #ffad53ff;
+  color: #fff !important;
+}
+
+.nav-tabs .nav-link{
+ font-size: 15px;
+  color: black !important;
+  font-weight: 700;
+}
+.nav-tabs{
+  justify-content: center ;
+  
+    border-bottom: none !important;
+
+}
+
+.items-details h6{
+  font-size: 15px !important;
   font-weight: 800;
+}
+
+.items-details p{
+  font-size: 10px !important;
+
+}
+
+.price{
+  color: red;
+}
+
+.card-item{
+  border: none !important;
+  padding: 15px 15px;
+  min-height: 100px !important;
+  background-color: #fff;
+ 
+}
+.dish-btn button{
+  color: white;
+  background-color: rgb(34, 139, 34);
+  border-radius: 10px ;
+  padding: 10px 10px;
+  border: none;
+  font-weight: 600;
+}
+.special-bg{
+  background-color: #1F1E23;
+}
+
+.deal-desc h5{
+  color: orange;
+  font-family: cursive;
+}
+.deal-desc h1{
+  color: #fff;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 1000;
+}
+.deal-desc p{
+  color: #FFF;
+  font-size: 15px;
+  font-family: 'Times New Roman', Times, serif;
+ 
+}
+.deal-prize{
+  color: orange;
+  border-radius: 10px ;
+  padding: 10px 10px;
+  border: none;
+  font-weight: 600;
+  font-size: 25px;
+  background-color: transparent;
+}
+
+.dea-prize{
+  color: black;
+  font-size: 15px;
 }
