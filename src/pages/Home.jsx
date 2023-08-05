@@ -6,6 +6,8 @@ import Dishes from '../component/element/Dishes'
 import SpecialCombo from '../component/element/SpecialCombo'
 import AppSection from '../component/element/AppSection'
 import Staff from '../component/element/Staff'
+import Blog from '../component/element/Blog'
+import Partners from '../component/element/Partners'
 
 const Home = () => {
   return (
@@ -17,6 +19,8 @@ const Home = () => {
     <SpecialCombo/>
     <AppSection/>
     <Staff/>
+    <Blog/>
+    <Partners/>
    </React.Fragment>
   )
 }

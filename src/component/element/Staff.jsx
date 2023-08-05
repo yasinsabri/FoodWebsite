@@ -21,7 +21,7 @@ const Staff = () => {
             <div className="staff-image">
               <img src="assets/staff-1.jpg" alt="" className="w-50 " />
             </div>
-            <div className="pt-5">
+            <div className=" exp pt-5">
               <h6>MARK HERENTIX</h6>
               <p>09 YEARS EXPERIENCE</p>
             </div>
@@ -44,7 +44,7 @@ const Staff = () => {
             <div className="staff-image">
               <img src="assets/staff-2.jpg" alt="" className="w-50 " />
             </div>
-            <div className="pt-5">
+            <div className="exp pt-5">
               <h6>YENA KILA JIM</h6>
               <p>06 YEARS EXPERIENCE</p>
             </div>
@@ -67,7 +67,7 @@ const Staff = () => {
             <div className="staff-image">
               <img src="assets/staff-3.jpg" alt="" className="w-50  " />
             </div>
-            <div className="pt-3">
+            <div className="exp pt-3">
               <h6>ALEX HERMANATO</h6>
               <p>12 YEARS EXPERIENCE</p>
             </div>
